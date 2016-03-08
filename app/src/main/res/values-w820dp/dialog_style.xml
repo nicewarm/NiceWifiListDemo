@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+        name="DialogStyle">
+        <item name="android:windowFrame">@null</item><!-- 该界面对应的前景图片 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否悬浮窗类型 -->
+        <item name="android:windowIsTranslucent">true</item><!-- 是否透明 -->
+        <item name="android:windowNoTitle">true</item><!-- 是否带有title -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

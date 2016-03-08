@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    style="@style/DialogStyle">
+
+    <TextView
+        android:id="@+id/name"
+        android:textSize="18sp"
+        android:textColor="#666666"
+        android:text="nice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="12sp"
+        android:textColor="#999999"
+        android:text="密码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/wifiDialogPsw"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:singleLine="true"/>
+
+    <CheckBox
+        android:id="@+id/isShowPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示密码"
+        android:textColor="#999999"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        <TextView
+            android:id="@+id/wifiDialogCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:text="取消"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/wifiDialogCertain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:textColor="#e97220"
+            android:text="连接"
+            android:layout_weight="1"/>"
+	</LinearLayout>
+</LinearLayout>
